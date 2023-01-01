@@ -21,6 +21,10 @@
 
     }
 
+    .nav {
+        margin-top: 5%;
+    }
+
     .magiskuninstallsucces {
         text-align: center;
         align-items: center;
@@ -91,6 +95,7 @@ p{
     font-family: 'Ubuntu Mono', monospace;
 }
 
+
 .row {
     display: flex;
     justify-content: center;
@@ -100,6 +105,10 @@ p{
     margin: 0 auto;
     text-align: center;
     padding: 20px 10%;
+}
+
+.nav {
+    margin-top: 2%;
 }
 
 h3 {
@@ -118,57 +127,13 @@ h3.txt-white {
     padding: 10px 10px;
     text-align: center;
     background: #eee;
-    transition: all 1.5s ease-in-out;
     cursor: crosshair;
-    box-shadow: 1px 1px #ffffff;
+    box-shadow: 2px 2px #ffffff;
 }
 
-
-/* ---- gradient btns ---- */
-
-
-/* inspired by https://codepen.io/pirrera/pen/bqVeGx
-   gradient from https://webgradients.com */
-
-.gradient {
-    /* block background */
-    background-color: #fff;
+.btn:hover {
+    background-color: #00cc00;
 }
-
-.gradient .btn {
-    /* general */
-    color: #fff;
-    border-radius: 4px;
-    background-size: 200% auto;
-    box-shadow: 0px 0px 15px 0 rgba(0, 0, 0, .1);
-}
-
-.gradient .btn:hover {
-    background-position: right center;
-}
-
-.gradient .btn-1 {
-    background-image: linear-gradient(to right, #5ee7df 0%, #b470ca 51%, #5ee7df 100%);
-}
-
-.gradient .btn-2 {
-    background-image: linear-gradient(135deg, #ee9ca7 0%, #fbed96 51%, #ee9ca7 100%);
-}
-
-.gradient .btn-3 {
-    background-image: linear-gradient(to right, #ffc4c4 0%, #a3b6ff 51%, #ffc4c4 100%);
-}
-
-.gradient .btn-4 {
-    background-image: linear-gradient(to right, #EAECC6 0%, #2BC0E4 51%, #EAECC6 100%);
-}
-
-.gradient .btn-5 {
-    background-image: linear-gradient(45deg, #ace0f9 0%, #fff1eb 51%, #ace0f9 100%);
-}
-
-
-/* ---- luxury btns ---- */
 
 .luxury {
     /* block background */
