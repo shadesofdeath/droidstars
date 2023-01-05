@@ -5,7 +5,7 @@
     }
   
     body {
-      font-family: 'Ubuntu Mono', monospace;
+      font-family: 'Product Sans';
       font-weight: 300;
       letter-spacing: 2px;
       margin: 0;
@@ -15,7 +15,7 @@
     h4{
       text-align: center;
       align-items: center;
-      font-family: 'Ubuntu Mono', monospace;
+      font-family: 'Product Sans';
       max-width: 500px;
       color: #ffffff;
 
@@ -28,7 +28,7 @@
     .magiskuninstallsucces {
         text-align: center;
         align-items: center;
-        font-family: 'Ubuntu Mono', monospace;
+        font-family: 'Product Sans';
         max-width: 500px;   
         font-size: 15px;
         margin: 25px;
@@ -39,7 +39,7 @@
     h5 {
         text-align: center;
         align-items: center;
-        font-family: 'Ubuntu Mono', monospace;
+        font-family: 'Product Sans';
         max-width: 500px;
         color: #ffffff;
       }
@@ -47,7 +47,7 @@
     .magiskp {
       text-align: center;
       align-items: center;
-      font-family: 'Ubuntu Mono', monospace;
+      font-family: 'Product Sans';
       max-width: 500px;   
       font-size: 15px;
       margin: 25px;
@@ -65,7 +65,7 @@
   }
 
 body {
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Product Sans';
     font-weight: 300;
     letter-spacing: 2px;
     margin: 0;
@@ -75,7 +75,7 @@ body {
 h4,h5 {
     text-align: center;
     align-items: center;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Product Sans';
     max-width: 500px;
     color: #ffffff;
 }
@@ -83,7 +83,7 @@ h4,h5 {
 p{
     text-align: center;
     align-items: center;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Product Sans';
     max-width: 1000px;
     margin: 20px;
     color: #ffffff;
@@ -92,7 +92,7 @@ p{
 .container {
     min-height: 100vh;
     margin: 0 auto;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Product Sans';
 }
 
 
